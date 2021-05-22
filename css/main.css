@@ -5092,7 +5092,6 @@ textarea.form-control-lg {
 }
 
 .toast-container {
-  width: -webkit-max-content;
   width: max-content;
   max-width: 100%;
   pointer-events: none;
@@ -10647,15 +10646,230 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-.carta .carousel-inner {
-  height: 600px;
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #fefbf9;
 }
-.carta .carousel-inner .img1 {
-  display: block;
+body section {
+  margin-top: 10rem;
+}
+body .seccion-titulo h1, body .seccion-titulo .h1 {
+  font-family: "Acme", sans-serif;
+  color: #005a28;
+  padding-bottom: 2.1875rem;
+  margin-bottom: 5rem;
+  background: url("../img/bordes2.svg") no-repeat left bottom;
+  background-size: 100% 1.155625rem;
+}
+
+@media only screen and (max-width: 992px) {
+  body section {
+    margin-top: 5rem;
+  }
+  body .seccion-titulo h1, body .seccion-titulo .h1 {
+    margin-bottom: 1.5rem;
+  }
+}
+header .navbar {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+header .navbar .navbar-brand {
+  font-family: "Caesar Dressing", cursive;
+  font-size: 1.5rem;
+}
+header .navbar .nav-item a {
+  transition: 0.5s;
+}
+@media (prefers-reduced-motion: reduce) {
+  header .navbar .nav-item a {
+    transition: none;
+  }
+}
+header .navbar .nav-item a:hover {
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 992px) {
+  header .navbar {
+    background-color: #000;
+  }
+  header .navbar .navbar-brand {
+    font-size: 1.3rem;
+  }
+  header .navbar button {
+    font-size: 1rem;
+  }
+  header .navbar .offcanvas-collapse {
+    position: fixed;
+    top: 2.8125rem;
+    bottom: 0;
+    left: 100%;
+    width: 100%;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    overflow-y: auto;
+    visibility: hidden;
+    background-color: #000;
+    transition: transform 0.3s ease-in-out, visibility 0.3s ease-in-out;
+  }
+  header .navbar .offcanvas-collapse.open {
+    visibility: visible;
+    transform: translateX(-100%);
+  }
+  header .navbar .offcanvas-collapse .nav-item {
+    margin-top: 2rem;
+  }
+  header .navbar .offcanvas-collapse li {
+    margin-right: 0 !important;
+    border-bottom: 0.1rem solid #fff;
+  }
+}
+#portada .carousel-inner h5, #portada .carousel-inner .h5 {
+  font-family: "Acme", sans-serif;
+  word-spacing: 0.5rem;
+}
+
+@media only screen and (max-width: 576px) {
+  #portada .carousel-inner h5, #portada .carousel-inner .h5 {
+    font-size: 1rem !important;
+  }
+}
+#nosotros .seccion-texto {
+  color: #005a28;
+  padding: 1rem 0;
+  background: url("../img/mascara1.svg") no-repeat center center;
+}
+
+#carta .row {
+  display: flex;
+  flex-wrap: nowrap;
+}
+#carta .row #carouselCarta .carousel-inner {
   width: 100%;
   height: 100%;
-  background-image: url("../img/carousel3.jpg");
-  background-position: center;
-  background-repeat: non-repeat;
-  background-size: cover;
+}
+#carta .row .contenido-carta .accordion {
+  margin-left: -9.375rem;
+  background-color: #fe3d2b;
+  padding-left: 1.25rem;
+  padding: 3.125rem 1.875rem 3.125rem 9.375rem;
+}
+#carta .row .contenido-carta .accordion button:hover[aria-expanded=true] {
+  background-color: #fe3d2b;
+  outline: none !important;
+  box-shadow: none !important;
+}
+#carta .row .contenido-carta .accordion button[aria-expanded=true] {
+  background-color: #fe3d2b;
+  outline: none !important;
+  box-shadow: none !important;
+}
+#carta .row .contenido-carta .accordion button:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+@media only screen and (max-width: 992px) {
+  #carta .row {
+    flex-wrap: wrap;
+  }
+  #carta .row #carouselCarta {
+    margin-bottom: 2rem;
+  }
+  #carta .row .contenido-carta .accordion {
+    margin-left: inherit;
+    padding-left: 0;
+    padding: 2.5rem 1.875rem 2.5rem 1.875rem;
+  }
+  #carta .row .contenido-carta button {
+    font-size: 1.125rem !important;
+  }
+}
+#local .col {
+  position: relative;
+}
+#local .col:before {
+  content: "";
+  display: inline-flex;
+  background-image: url("../img/horario.svg");
+  background-size: 12.5rem 12.5rem;
+  height: 12.5rem;
+  width: 12.5rem;
+  position: absolute;
+  right: 10%;
+  top: 10%;
+  cursor: pointer;
+  animation: horario 5s ease infinite;
+}
+@keyframes horario {
+  0% {
+    transform: rotate(30deg);
+  }
+  50% {
+    transform: rotate(-30deg);
+  }
+  100% {
+    transform: rotate(30deg);
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  #local .col:before {
+    content: "";
+    background-image: url("");
+  }
+}
+#equipo .row .seccion-texto {
+  color: #005a28;
+}
+#equipo .imagen {
+  background: #141252;
+}
+#equipo .imagen img {
+  position: relative;
+  bottom: -0.8125rem;
+}
+
+#contacto .datos-contacto {
+  background-color: #fe3d2b;
+  color: #fff;
+  padding: 5rem 5rem 10rem 1.5rem;
+}
+#contacto .datos-contacto i {
+  width: 1.25rem;
+  text-align: center;
+  margin-right: 1rem;
+}
+#contacto .datos-contacto p {
+  margin-left: 2.5rem;
+}
+#contacto .datos-contacto a {
+  color: #fff;
+  font-size: 2rem;
+}
+#contacto iframe {
+  margin-top: 11rem;
+}
+
+@media only screen and (max-width: 992px) {
+  #contacto .datos-contacto {
+    padding: 3rem 1.5rem 3rem 1.5rem;
+  }
+  #contacto .datos-contacto p {
+    margin-left: 0.5rem;
+  }
+  #contacto iframe {
+    margin-top: 1rem;
+  }
+}
+footer {
+  margin-top: 1rem;
+  background: #141252;
+  color: #fff;
+}
+
+@media only screen and (max-width: 992px) {
+  footer p {
+    font-size: 0.875rem;
+  }
 }

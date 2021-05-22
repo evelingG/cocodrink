@@ -10,76 +10,76 @@
 	<link rel="stylesheet" href="css/main.css">
 	<title>Coco Drink</title>
 </head>
-<body>
-	
-	<!-- Barra de navegacion -->
-	<header>
-		<nav class="navbar navbar-expand-lg fixed-top py-md-3">
-			<div class="container">
-				<a href="#" class="navbar-brand text-white">COCO DRINK</a>
-				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-					<span class="navbar-toggler-icon"></span>
-				</button>
-				<div class="collapse navbar-collapse" id="navbarSupportedContent">
-					<ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-				        <li class="nav-item me-4">
-				          <a class="nav-link active text-white" aria-current="page" href="#">SOBRE NOSOTROS</a>
-				        </li>
-				        <li class="nav-item me-4">
-				          <a class="nav-link text-white" href="#">NUESTRA CARTA</a>
-				        </li>
-				        <li class="nav-item me-4">
-				          <a class="nav-link text-white" href="#">EQUIPO COCO DRINK</a>
-				        </li>
-				        <li class="nav-item">
-				          <a class="nav-link text-white" href="#">CONTACTO</a>
-				        </li>
-				    </ul>
 
-				    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 d-flex flex-row justify-content-center">
-				        <li class="nav-item me-4">
-				          <a class="nav-link text-white" aria-current="page" href="#"><i class="fab fa-instagram"></i></a>
-				        </li>
-				        <li class="nav-item">
-				          <a class="nav-link text-white" href="#"><i class="fab fa-facebook-f"></i></a>
-				        </li>  
-				    </ul>
-				</div>
-			</div>
+<body>
+<!-- Barra de navegacion practica-->
+	<header>
+		<nav class="navbar navbar-expand-lg fixed-top navbar-dark py-1 py-lg-3" aria-label="Main navigation">
+		  <div class="container">
+		    <a class="navbar-brand inicio" href="#">COCO DRINK</a>
+		    <button class="navbar-toggler p-0 border-0" type="button" id="navbarSideCollapse" aria-label="Toggle navigation">
+		      <span class="navbar-toggler-icon"></span>
+		    </button>
+
+		    <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
+		        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+			        <li class="nav-item me-4">
+			          <a class="nav-link active text-white scroll" aria-current="page" href="#nosotros">SOBRE NOSOTROS</a>
+			        </li>
+			        <li class="nav-item me-4">
+			          <a class="nav-link text-white scroll" href="#carta">NUESTRA CARTA</a>
+			        </li>
+			        <li class="nav-item me-4">
+			          <a class="nav-link text-white scroll" href="#equipo">EQUIPO COCO DRINK</a>
+			        </li>
+			        <li class="nav-item">
+			          <a class="nav-link text-white scroll" href="#contacto">CONTACTO</a>
+			        </li>
+			    </ul>
+
+			    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 d-lg-flex flex-row d-none">
+			        <li class="nav-item me-4">
+			          <a class="nav-link text-white" aria-current="page" href="#"><i class="fab fa-instagram"></i></a>
+			        </li>
+			        <li class="nav-item">
+			          <a class="nav-link text-white" href="#"><i class="fab fa-facebook-f"></i></a>
+			        </li>  
+			    </ul>
+		    </div>
+		  </div>
 		</nav>
 	</header>
 	<!-- Fin barra de navegacion -->
-
 
 	<!-- Main -->
 	<main>
 
 		<!-- Carrusel -->
-		<div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
+		<div id="portada" class="carousel slide carousel-fade" data-bs-ride="carousel">
 		  <div class="carousel-indicators invisible">
-		    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-		    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+		    <button type="button" data-bs-target="#portada" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+		    <button type="button" data-bs-target="#portada" data-bs-slide-to="1" aria-label="Slide 2"></button>
 		  </div>
 
 		  <div class="carousel-inner">
 		    <div class="carousel-item active" data-bs-interval="8000">
 		      <img src="img/carousel1.jpg" class="d-block w-100" alt="...">
 		      <div class="carousel-caption d-block ">
-		        <h5 class="fs-2 mb-5">¡BIENVENIDOS AL PARAÍSO!</h5>
+		        <h5 class="fs-2 mb-lg-5">¡BIENVENIDOS AL PARAÍSO!</h5>
 		      </div>
 		    </div>
 		    <div class="carousel-item" data-bs-interval="8000">
 		      <img src="img/carousel2.jpg" class="d-block w-100" alt="...">
 		      <div class="carousel-caption d-block">
-		        <h5 class="fs-2 mb-5">PIQUEOS, CÓCTELES, MÚSICA Y TERRAZA AL AIRE LIBRE</h5>
+		        <h5 class="fs-2 mb-lg-5">PIQUEOS, CÓCTELES, MÚSICA Y TERRAZA AL AIRE LIBRE</h5>
 		      </div>
 		    </div>
 		  </div>
-		  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"  data-bs-slide="prev">
+		  <button class="carousel-control-prev" type="button" data-bs-target="#portada"  data-bs-slide="prev">
 		    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
 		    <span class="visually-hidden">Previous</span>
 		  </button>
-		  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"  data-bs-slide="next">
+		  <button class="carousel-control-next" type="button" data-bs-target="#portada"  data-bs-slide="next">
 		    <span class="carousel-control-next-icon" aria-hidden="true"></span>
 		    <span class="visually-hidden">Next</span>
 		  </button>
@@ -87,21 +87,18 @@
 		<!-- Carrusel -->
 
 		<!-- Sección Nosotros -->
-		<section class="nosotros">
+		<section id="nosotros">
 			<div class="container">
 				<div class="row">
+					<div class="col-lg-6 ">
+						<div class="col seccion-titulo mb-5">
+							<h1>SOBRE NOSOTROS</h1>
+						</div>
 
-					<div class="col-lg-6 d-flex align-items-center">
-						<div class="row">
-							<div class="col-auto seccion-titulo mb-5">
-								<h1>SOBRE NOSOTROS</h1>
-							</div>
-
-							<div class="col-auto seccion-texto mt-5">
-								<p>COCO DRINK es un restobar terraza ubicado en el centro de Chepén. Ofrece una variada carta que combinada con la atmósfera da como resultado el lugar perfecto para pasar un momento agradable con familia y amigos.</p>
-								<p>El local cuenta con una temática tiki muy original y una agradable vista al centro de la ciudad.</p>
-								<p>Los cócteles y la comida preparados al momento aterrizan en la terraza para brindarte la mejor experiencia. Ya sea para una reunión familiar, una reunión de trabajo, un encuentro de amigos o un descanso de un día recargado, COCO DRINK te ofrece un lugar tranquilo y acogedor durante todo el día.</p>
-							</div>
+						<div class="col-auto seccion-texto mt-5">
+							<p>COCO DRINK es un restobar terraza ubicado en el centro de Chepén. Ofrece una variada carta que combinada con la atmósfera da como resultado el lugar perfecto para pasar un momento agradable con familia y amigos.</p>
+							<p>El local cuenta con una temática tiki muy original y una agradable vista al centro de la ciudad.</p>
+							<p>Los cócteles y la comida preparados al momento aterrizan en la terraza para brindarte la mejor experiencia. Ya sea para una reunión familiar, una reunión de trabajo, un encuentro de amigos o un descanso de un día recargado, COCO DRINK te ofrece un lugar tranquilo y acogedor durante todo el día.</p>
 						</div>
 					</div>
 
@@ -116,248 +113,412 @@
 
 
 		<!-- Sección Nuestra Carta -->
-		<section class="carta">
+		<section id="carta">
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-6">
-						<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+						<div id="carouselCarta" class="carousel slide" data-bs-ride="carousel">
 						  <div class="carousel-indicators">
-						    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-						    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-						    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-						    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
-						    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
-						    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
-						    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6" aria-label="Slide 7"></button>
-						    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="7" aria-label="Slide 8"></button>
+							    <button type="button" data-bs-target="#carouselCarta" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+							    <button type="button" data-bs-target="#carouselCarta" data-bs-slide-to="1" aria-label="Slide 2"></button>
+							    <button type="button" data-bs-target="#carouselCarta" data-bs-slide-to="2" aria-label="Slide 3"></button>
+							    <button type="button" data-bs-target="#carouselCarta" data-bs-slide-to="3" aria-label="Slide 4"></button>
+							    <button type="button" data-bs-target="#carouselCarta" data-bs-slide-to="4" aria-label="Slide 5"></button>
+							    <button type="button" data-bs-target="#carouselCarta" data-bs-slide-to="5" aria-label="Slide 6"></button>
 						  </div>
 						  <div class="carousel-inner">
-						    <div class="carousel-item active img1"></div>
-						    <div class="carousel-item img2"></div>
-						    <div class="carousel-item img3"></div>
-						    <div class="carousel-item img4"></div>
-						    <div class="carousel-item img5"></div>
-						    <div class="carousel-item img6"></div>
-						    <div class="carousel-item img7"></div>
-						    <div class="carousel-item img8"></div>
+							    <div class="carousel-item active">
+							    	<img src="img/carousel3.jpg" class="d-block w-100" alt="...">
+							    </div>
+							    <div class="carousel-item">
+							    	<img src="img/carousel4.jpg" class="d-block w-100" alt="...">
+							    </div>
+							    <div class="carousel-item">
+							    	<img src="img/carousel5.jpg" class="d-block w-100" alt="...">
+							    </div>
+							    <div class="carousel-item">
+							    	<img src="img/carousel6.jpg" class="d-block w-100" alt="...">
+							    </div>
+							    <div class="carousel-item">
+							    	<img src="img/carousel7.jpg" class="d-block w-100" alt="...">
+							    </div>
+							    <div class="carousel-item">
+							    	<img src="img/carousel8.jpg" class="d-block w-100" alt="...">
+							    </div>
 						  </div>
-						  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"  data-bs-slide="prev">
+						  <button class="carousel-control-prev" type="button" data-bs-target="#carouselCarta"  data-bs-slide="prev">
 						    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
 						    <span class="visually-hidden">Previous</span>
 						  </button>
-						  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"  data-bs-slide="next">
+						  <button class="carousel-control-next" type="button" data-bs-target="#carouselCarta"  data-bs-slide="next">
 						    <span class="carousel-control-next-icon" aria-hidden="true"></span>
 						    <span class="visually-hidden">Next</span>
 						  </button>
 						</div>
 					</div>
 
-					<div class="col-lg-6">
-						<div class="seccion-titulo my-5">
+					<div class="col-lg-6 contenido-carta">
+						<div class="seccion-titulo">
 							<h1>NUESTRA CARTA</h1>
 						</div>
-						<div class="accordion accordion-flush" id="accordionFlushExample">
-						  <div class="accordion-item">
-						    <h2 class="accordion-header" id="flush-headingOne">
-						      <button class="accordion-button collapsed fs-3" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-						        BEBIDAS
-						      </button>
-						    </h2>
-						    <div id="flush-collapseOne" class="accordion-collapse collapse show" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-						      <div class="accordion-body">
-						      	<div class="row">
-						      		<div class="col descripcion">
-						      			MAI TAI
-						      		</div>
-						      		<div class="col precio">
-						      			<p class="text-end">S/20</p>
-						      		</div>
-						      	</div>
+						<div class="accordion accordion-flush " id="accordionFlushExample">
+							<!-- COCKTAILS -->
+							<div class="accordion-item text-white">
+							    <h2 class="accordion-header" id="flush-headingOne">
+							      <button class="accordion-button collapsed fs-4 text-white" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+							        COCKTAILS
+							      </button>
+							    </h2>
+							    <div id="flush-collapseOne" class="accordion-collapse collapse show" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+							      <div class="accordion-body">
+							      	<div class="row">
+							      		<div class="col-9 descripcion">
+							      			CHILCANO
+							      		</div>
+							      		<div class="col-3 precio">
+							      			<p class="text-end">S/10</p>
+							      		</div>
+							      	</div>
 
-						      	<div class="row">
-						      		<div class="col descripcion">
-						      			PORT LIGHT
-						      		</div>
-						      		<div class="col precio">
-						      			<p class="text-end">S/20</p>
-						      		</div>
-						      	</div>
+							      	<div class="row">
+							      		<div class="col-9 descripcion">
+							      			PISCO SOUR
+							      		</div>
+							      		<div class="col-3 precio">
+							      			<p class="text-end">S/15</p>
+							      		</div>
+							      	</div>
 
-						      	<div class="row">
-						      		<div class="col descripcion">
-						      			COCO BONGO
-						      		</div>
-						      		<div class="col precio">
-						      			<p class="text-end">S/20</p>
-						      		</div>
-						      	</div>
+							      	<div class="row">
+							      		<div class="col-9 descripcion">
+							      			MARACUYÁ SOUR
+							      		</div>
+							      		<div class="col-3 precio">
+							      			<p class="text-end">S/15</p>
+							      		</div>
+							      	</div>
 
-						      	<div class="row">
-						      		<div class="col descripcion">
-						      			PLANTER´S PUNCH
-						      		</div>
-						      		<div class="col precio">
-						      			<p class="text-end">S/22</p>
-						      		</div>
-						      	</div>
+							      	<div class="row">
+							      		<div class="col-9 descripcion">
+							      			MOJITO
+							      		</div>
+							      		<div class="col-3 precio">
+							      			<p class="text-end">S/10</p>
+							      		</div>
+							      	</div>
 
-						      	<div class="row">
-						      		<div class="col descripcion">
-						      			PLANTER´S PUNCH
-						      		</div>
-						      		<div class="col precio">
-						      			<p class="text-end">S/22</p>
-						      		</div>
-						      	</div>
+							      	<div class="row">
+							      		<div class="col-9 descripcion">
+							      			CUBA LIBRE
+							      		</div>
+							      		<div class="col-3 precio">
+							      			<p class="text-end">S/10</p>
+							      		</div>
+							      	</div>
 
-						      	<div class="row">
-						      		<div class="col descripcion">
-						      			AKU AKU
-						      		</div>
-						      		<div class="col precio">
-						      			<p class="text-end">S/20</p>
-						      		</div>
-						      	</div>
+							      	<div class="row">
+							      		<div class="col-9 descripcion">
+							      			PIÑA COLADA
+							      		</div>
+							      		<div class="col-3 precio">
+							      			<p class="text-end">S/15</p>
+							      		</div>
+							      	</div>
 
-						      	<div class="row">
-						      		<div class="col descripcion">
-						      			JAMAICAN PUNCH
-						      		</div>
-						      		<div class="col precio">
-						      			<p class="text-end">S/20</p>
-						      		</div>
-						      	</div>
+							      	<div class="row">
+							      		<div class="col-9 descripcion">
+							      			CAIPIRINHA
+							      		</div>
+							      		<div class="col-3 precio">
+							      			<p class="text-end">S/10</p>
+							      		</div>
+							      	</div>
 
-						      	<div class="row">
-						      		<div class="col descripcion">
-						      			ZOMBIE 1950
-						      		</div>
-						      		<div class="col precio">
-						      			<p class="text-end">S/30</p>
-						      		</div>
-						      	</div>
+							      	<div class="row">
+							      		<div class="col-9 descripcion">
+							      			MAI TAI
+							      		</div>
+							      		<div class="col-3 precio">
+							      			<p class="text-end">S/20</p>
+							      		</div>
+							      	</div>
 
-						      	<div class="row">
-						      		<div class="col descripcion">
-						      			QUEEN'S PARK SWIZZLE
-						      		</div>
-						      		<div class="col precio">
-						      			<p class="text-end">S/20</p>
-						      		</div>
-						      	</div>
+							      	<div class="row">
+							      		<div class="col-9 descripcion">
+							      			ZOMBIE
+							      		</div>
+							      		<div class="col-3 precio">
+							      			<p class="text-end">S/30</p>
+							      		</div>
+							      	</div>
 
-						      	<div class="row">
-						      		<div class="col descripcion">
-						      			DARK & STORMY
-						      		</div>
-						      		<div class="col precio">
-						      			<p class="text-end">S/20</p>
-						      		</div>
-						      	</div>
-
-						      	<div class="row">
-						      		<div class="col descripcion">
-						      			QUEEN COLADA
-						      		</div>
-						      		<div class="col precio">
-						      			<p class="text-end">S/20</p>
-						      		</div>
-						      	</div>
-
-						      	<div class="row">
-						      		<div class="col descripcion">
-						      			MOJITO
-						      		</div>
-						      		<div class="col precio">
-						      			<p class="text-end">S/20</p>
-						      		</div>
-						      	</div>
-
-						      	<div class="row">
-						      		<div class="col descripcion">
-						      			CHILCANO
-						      		</div>
-						      		<div class="col precio">
-						      			<p class="text-end">S/18</p>
-						      		</div>
-						      	</div>
-
-						      	<div class="row">
-						      		<div class="col descripcion">
-						      			ROB ROY
-						      		</div>
-						      		<div class="col precio">
-						      			<p class="text-end">S/25</p>
-						      		</div>
-						      	</div>
-
-						      </div>
+							      </div>
+							    </div>
 						    </div>
-						  </div>
-						  <div class="accordion-item">
-						    <h2 class="accordion-header" id="flush-headingTwo">
-						      <button class="accordion-button collapsed fs-3" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-						        COMIDAS
-						      </button>
-						    </h2>
-						    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-						      <div class="accordion-body">
-						      	<div class="row">
-						      		<div class="col descripcion">
-						      			PAPA RELLENA
-						      		</div>
-						      		<div class="col precio">
-						      			<p class="text-end">S/10</p>
-						      		</div>
-						      	</div>
 
-						      	<div class="row">
-						      		<div class="col descripcion">
-						      			ARROZ CON MARISCOS
-						      		</div>
-						      		<div class="col precio">
-						      			<p class="text-end">S/30</p>
-						      		</div>
-						      	</div>
+						    <!-- PA' PICAR -->
+							<div class="accordion-item text-white">
+							    <h2 class="accordion-header" id="flush-headingTwo">
+							      <button class="accordion-button collapsed fs-4 text-white" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+							        PA' PICAR
+							      </button>
+							    </h2>
+							    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+							      <div class="accordion-body">
+							      	<div class="row">
+							      		<div class="col descripcion">
+							      			PAPITA CON CEVICHE
+							      		</div>
+							      		<div class="col precio">
+							      			<p class="text-end">S/10</p>
+							      		</div>
+							      	</div>
 
-						      	<div class="row">
-						      		<div class="col descripcion">
-						      			CHICHARRON DE PESCADO
-						      		</div>
-						      		<div class="col precio">
-						      			<p class="text-end">S/25</p>
-						      		</div>
-						      	</div>
+							      	<div class="row">
+							      		<div class="col descripcion">
+							      			PAPITA CON CHICHARRÓN
+							      		</div>
+							      		<div class="col precio">
+							      			<p class="text-end">S/10</p>
+							      		</div>
+							      	</div>
 
-						      	<div class="row">
-						      		<div class="col descripcion">
-						      			CAUSA LIMEÑA
-						      		</div>
-						      		<div class="col precio">
-						      			<p class="text-end">S/20</p>
-						      		</div>
-						      	</div>
+							      	<div class="row">
+							      		<div class="col descripcion">
+							      			PAPITA MATA HAMBRE
+							      		</div>
+							      		<div class="col precio">
+							      			<p class="text-end">S/15</p>
+							      		</div>
+							      	</div>
 
-						      	<div class="row">
-						      		<div class="col descripcion">
-						      			TALLARINES AL PESTO CON MILANESA
-						      		</div>
-						      		<div class="col precio">
-						      			<p class="text-end">S/15</p>
-						      		</div>
-						      	</div>
+							      	<div class="row">
+							      		<div class="col descripcion">
+							      			CROCANTE DE POTA
+							      		</div>
+							      		<div class="col precio">
+							      			<p class="text-end">S/10</p>
+							      		</div>
+							      	</div>
 
-						      	<div class="row">
-						      		<div class="col descripcion">
-						      			ALITAS BBQ
-						      		</div>
-						      		<div class="col precio">
-						      			<p class="text-end">S/15</p>
-						      		</div>
-						      	</div>
-						      </div>
-						    </div>
-						  </div>
+							      	<div class="row">
+							      		<div class="col descripcion">
+							      			LECHE DE TIGRE
+							      		</div>
+							      		<div class="col precio">
+							      			<p class="text-end">S/15</p>
+							      		</div>
+							      	</div>
+
+							      </div>
+							    </div>
+							</div>
+
+							<!-- PLATOS DE FONDO -->
+							<div class="accordion-item text-white">
+							    <h2 class="accordion-header" id="flush-headingThree">
+							      <button class="accordion-button collapsed fs-4 text-white" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+							        PLATOS DE FONDO
+							      </button>
+							    </h2>
+							    <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+							      <div class="accordion-body">
+							      	<div class="row">
+							      		<div class="col-9 descripcion">
+							      			CHICHARRÓN DE PESCADO (PER)
+							      		</div>
+							      		<div class="col-3 precio">
+							      			<p class="text-end">S/25</p>
+							      		</div>
+							      	</div>
+
+							      	<div class="row">
+							      		<div class="col-9 descripcion">
+							      			CHICHARRÓN DE PESCADO (MED)
+							      		</div>
+							      		<div class="col-3 precio">
+							      			<p class="text-end">S/40</p>
+							      		</div>
+							      	</div>
+
+							      	<div class="row">
+							      		<div class="col-9 descripcion">
+							      			CEVICHE PERSONAL
+							      		</div>
+							      		<div class="col-3 precio">
+							      			<p class="text-end">S/25</p>
+							      		</div>
+							      	</div>
+
+							      	<div class="row">
+							      		<div class="col-9 descripcion">
+							      			CEVICHE MEDIANO
+							      		</div>
+							      		<div class="col-3 precio">
+							      			<p class="text-end">S/40</p>
+							      		</div>
+							      	</div>
+
+							      	<div class="row">
+							      		<div class="col-9 descripcion">
+							      			ARROZ CON MARISCOS (PER)
+							      		</div>
+							      		<div class="col-3 precio">
+							      			<p class="text-end">S/25</p>
+							      		</div>
+							      	</div>
+
+							      	<div class="row">
+							      		<div class="col-9 descripcion">
+							      			ARROZ CON MARISCOS (MED)
+							      		</div>
+							      		<div class="col-3 precio">
+							      			<p class="text-end">S/40</p>
+							      		</div>
+							      	</div>
+
+							      	<div class="row">
+							      		<div class="col-9 descripcion">
+							      			CARRETILLERO PERSONAL
+							      		</div>
+							      		<div class="col-3 precio">
+							      			<p class="text-end">S/30</p>
+							      		</div>
+							      	</div>
+
+							      	<div class="row">
+							      		<div class="col-9 descripcion">
+							      			CARRETILLERO MEDIANO
+							      		</div>
+							      		<div class="col-3 precio">
+							      			<p class="text-end">S/40</p>
+							      		</div>
+							      	</div>
+
+							      </div>
+							    </div>
+							</div>
+
+							<!-- CRIOLLO-->
+							<div class="accordion-item text-white">
+							    <h2 class="accordion-header" id="flush-headingFour">
+							      <button class="accordion-button collapsed fs-4 text-white" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+							        CRIOLLO (SAB-DOM)
+							      </button>
+							    </h2>
+							    <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+							      <div class="accordion-body">
+							      	<div class="row">
+							      		<div class="col-9 descripcion">
+							      			CABRITO
+							      		</div>
+							      		<div class="col-3 precio">
+							      			<p class="text-end">S/15</p>
+							      		</div>
+							      	</div>
+
+							      	<div class="row">
+							      		<div class="col-9 descripcion">
+							      			CUY FRITO
+							      		</div>
+							      		<div class="col-3 precio">
+							      			<p class="text-end">S/25</p>
+							      		</div>
+							      	</div>							   
+
+							      </div>
+							    </div>
+							</div>
+
+							<!-- CLÁSICOS-->
+							<div class="accordion-item text-white">
+							    <h2 class="accordion-header" id="flush-headingFive">
+							      <button class="accordion-button collapsed fs-4 text-white" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+							        LOS CLÁSICOS
+							      </button>
+							    </h2>
+							    <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
+							      <div class="accordion-body">
+							      	<div class="row">
+							      		<div class="col-9 descripcion">
+							      			TALLARIN SALTADO
+							      		</div>
+							      		<div class="col-3 precio">
+							      			<p class="text-end">S/15</p>
+							      		</div>
+							      	</div>
+
+							      	<div class="row">
+							      		<div class="col-9 descripcion">
+							      			ARROZ CHAUFA DE POLLO
+							      		</div>
+							      		<div class="col-3 precio">
+							      			<p class="text-end">S/10</p>
+							      		</div>
+							      	</div>	
+
+							      	<div class="row">
+							      		<div class="col-9 descripcion">
+							      			ARROZ CHAUFA DE MARICOS
+							      		</div>
+							      		<div class="col-3 precio">
+							      			<p class="text-end">S/20</p>
+							      		</div>
+							      	</div>						   
+
+							      </div>
+							    </div>
+							</div>
+
+							<!-- BEBIDAS-->
+							<div class="accordion-item text-white">
+							    <h2 class="accordion-header" id="flush-headingSix">
+							      <button class="accordion-button collapsed fs-4 text-white" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
+							        BEBIDAS
+							      </button>
+							    </h2>
+							    <div id="flush-collapseSix" class="accordion-collapse collapse" aria-labelledby="flush-headingSix" data-bs-parent="#accordionFlushExample">
+							      <div class="accordion-body">
+							      	<div class="row">
+							      		<div class="col-9 descripcion">
+							      			CHICHA MORADA
+							      		</div>
+							      		<div class="col-3 precio">
+							      			<p class="text-end">S/10</p>
+							      		</div>
+							      	</div>
+
+							      	<div class="row">
+							      		<div class="col-9 descripcion">
+							      			MARACUYÁ
+							      		</div>
+							      		<div class="col-3 precio">
+							      			<p class="text-end">S/10</p>
+							      		</div>
+							      	</div>	
+
+							      	<div class="row">
+							      		<div class="col-9 descripcion">
+							      			CEBADA
+							      		</div>
+							      		<div class="col-3 precio">
+							      			<p class="text-end">S/10</p>
+							      		</div>
+							      	</div>
+
+							      	<div class="row">
+							      		<div class="col-9 descripcion">
+							      			LIMONADA
+							      		</div>
+							      		<div class="col-3 precio">
+							      			<p class="text-end">S/10</p>
+							      		</div>
+							      	</div>							   
+
+							      </div>
+							    </div>
+							</div>
+
 						</div>
 					</div>
 				</div>
@@ -367,7 +528,7 @@
 
 
 		<!-- Sección Local -->
-		<section class="local">
+		<section id="local">
 			<div class="container">
 				<div class="row">
 					<div class="col">
@@ -380,32 +541,35 @@
 
 
 		<!-- Sección equipo coco drink -->
-		<section class="team">
+		<section id="equipo">
 			<div class="container">
 				<div class="row">
-					<div class="col">
-						<div class="seccion-titulo mb-5">
-							<h1 class="text-center">NUESTRO EQUIPO</h1>
+					<div class="col-lg-6 ">
+						<div class="col seccion-titulo mb-5">
+							<h1>NUESTRO EQUIPO</h1>
+						</div>
+
+						<div class="col-auto seccion-texto mt-5">
+							<p>Somos una gran familia conformada por profesionales que se esfuerzan a diario para brindarte la mejor atención.</p>
+							<p>¡El paraíso te espera!</p>
 						</div>
 					</div>
-				</div>
 
-				<div class="row">
-					<div class="col">
+					<div class="col-lg-6 imagen">
 						<img src="img/equipo.jpg" class="d-block w-100" alt="">
 					</div>
-				</div>
-				
+					
+				</div>				
 			</div>
 		</section>
 		<!-- Fin Sección equipo coco drink -->
 
 
 		<!-- Sección Contacto -->
-		<section class="contacto">
+		<section id="contacto">
 			<div class="container">
 				<div class="row">
-					<div class="col-lg-6 px-5">
+					<div class="col-lg-6">
 						<div class="seccion-titulo mb-5">
 							<h1>CONTACTO</h1>
 						</div>
@@ -414,12 +578,18 @@
 							<i class="fas fa-map-pin"></i>
 							<span>Calle trujillo #298, Chepén, Perú</span>
 							<br><br>
-							<i class="fas fa-phone-alt"></i>
-							<span>920 073 635</span>
-							<br>
-							<i>Para consultas generales y delivery</i>
+							<i class="fas fa-clock"></i>
+							<span>Lunes-Domingos: 10:30am - 9:00pm</span>
 							<br><br>
-							<p>En COCO DRINK nos preocupamos por su salud es por ello que contamos con todos los protocolos de seguridad para que tengas la mejor experiencia.</p>
+							<i class="fas fa-phone-alt"></i>
+							<span>920 073 635 (Para consultas generales y delivery)</span>
+							<br><br>
+							<p class="mt-5">En COCO DRINK nos preocupamos por su salud es por ello que contamos con todos los protocolos de seguridad para que tengas la mejor experiencia.</p>
+							<p>Síguenos en nuestras redes sociales</p>
+							<div class="redes-sociales mt-1 d-flex justify-content-center">
+								<a href="#"><i class="fab fa-instagram me-5"></i></a>
+								<a href="#"><i class="fab fa-facebook-f"></i></a>
+							</div>
 						</div>
 					</div>
 
@@ -430,7 +600,7 @@
 			</div>
 		</section>
 		<!-- Fin Sección Contacto -->
-
+		
 	</main>
 	<!-- main -->
 
@@ -438,9 +608,9 @@
 	<!-- Sección Footer -->
 	<footer>
 		<div class="container">
-			<div class="row py-4">
+			<div class="row py-3 py-lg-5">
 				<div class="col-lg-6">
-					<p class="text-center">&copy; Todos los Derechos Reservados</p>
+					<p class="text-center">&copy; 2021 Todos los Derechos Reservados</p>
 				</div>
 
 				<div class="col-lg-6">
@@ -455,5 +625,7 @@
 	<script src="js/jquery.js"></script>
 	<script src="js/popper.js"></script>
 	<script src="js/bootstrap.min.js"></script>
+	<script src="js/offcanvas.js"></script>
+	<script src="js/scroll.js"></script>
 </body>
 </html>

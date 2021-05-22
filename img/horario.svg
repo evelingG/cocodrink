@@ -1,0 +1,19 @@
+<svg width="250" height="240" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+ <g id="Layer_1">
+  <title>Layer 1</title>
+  <g transform="matrix(1.33333 0 0 -1.33333 0 666.667)" id="g158">
+   <path fill="#ff2626" fill-rule="nonzero" d="m154.36546,411.38639c0,34.389 -27.878,62.267 -62.268,62.267c-34.388,0 -62.266,-27.878 -62.266,-62.267c0,-34.39 27.878,-62.268 62.266,-62.268c34.39,0 62.268,27.878 62.268,62.268" id="svg_1"/>
+  </g>
+  <g transform="matrix(1.33333 0 0 -1.33333 0 666.667)" id="g162">
+   <path fill="none" stroke="#141252" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="m170.11352,411.38639c0,43.915 -35.601,79.516 -79.516,79.516c-43.915,0 -79.515,-35.601 -79.515,-79.516c0,-43.915 35.6,-79.516 79.515,-79.516c43.915,0 79.516,35.601 79.516,79.516z" id="svg_3"/>
+  </g>
+  <text x="-236.57554" y="-189.53882" font-weight="800" font-size="46.99977px" font-family="'Gilroy ExtraBold'" fill="#000000" fill-rule="nonzero" transform="matrix(0.932807 0.0889893 -0.0816137 1.01711 233.287 309.886)" id="text170">10:30 AM</text>
+  <g transform="matrix(1.33333 0 0 -1.33333 0 666.667)" id="svg_10" clip-path="url(#clipPath178)">
+   <g id="svg_9">
+    <path fill="none" stroke="#000000" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="m158.18085,404.7888l-133.665,11.694" id="svg_8"/>
+   </g>
+  </g>
+  <text x="-222.77163" y="-129.78923" font-weight="800" font-size="46.99977px" font-family="'Gilroy ExtraBold'" fill="#000000" fill-rule="nonzero" transform="matrix(0.932807 0.0889893 -0.0816137 1.01711 233.287 309.886)" id="svg_13">9:00 PM</text>
+ </g>
+</svg>

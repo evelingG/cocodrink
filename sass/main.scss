@@ -1,22 +1,321 @@
 
+//COLORES
+$bg-web: #fefbf9;
+$verde: #005a28;
+$azul: #141252;
+$coral: #fe3d2b;
+$negro: #000;
 
+//TIPOGRAFÍA
+$titulo: 'Acme', sans-serif;
+$texto-general: 'Montserrat', sans-serif;
+$texto-logo: 'Caesar Dressing', cursive;
 
+//MIXIN
+@mixin transition($tiempo){
+	-webkit-transition: all $tiempo ease;
+	-o-transition: all $tiempo ease;
+	transition: all $tiempo ease;
+}
 
 //Bootstrap
 @import "../bootstrap/scss/bootstrap";
 
-// ARREGLAR EL CODIGO PARA TODAS LAS IMAGENES DEL SEGUNDO CARRUSEL
-.carta{
-.carousel-inner{
-	height: 600px;
-	.img1{
-      display: block;
-      width: 100%;
-      height: 100%;
-      background-image: url('../img/carousel3.jpg');
-      background-position: center;
-      background-repeat: non-repeat;
-      background-size: cover;
-  	}
+//-------GENERAL---------//
+body{
+	font-family: $texto-general;
+	background-color: $bg-web;
+
+	section{
+		margin-top: 10rem;
+	}
+
+	.seccion-titulo{
+		h1{
+			font-family: $titulo;
+			color: $verde;
+			padding-bottom: 2.1875rem;
+			margin-bottom: 5rem;
+			background: url('../img/bordes2.svg') no-repeat left bottom; 
+			background-size: 100% 1.155625rem;
+		}
+	}
 }
+
+@media only screen and (max-width: 992px){
+	body{
+		section{
+			margin-top: 5rem;
+		}
+		.seccion-titulo{
+			h1{
+				margin-bottom: 1.5rem;
+			}
+		}
+	}
+}
+
+
+//-------BARRA DE NAVEGACIÓN---------//
+header{
+	.navbar{
+		background-color: rgba($negro, 0.5);
+		.navbar-brand{
+			font-family: $texto-logo;
+			font-size: 1.5rem;
+		}
+
+		.nav-item{
+			a{
+				@include transition(.5s);
+
+				&:hover{
+				font-weight: bold;
+				}
+			}	
+		}
+	}
+}
+
+@media only screen and (max-width: 992px){
+	header{
+		.navbar{
+			background-color: $negro;
+			.navbar-brand{
+				font-size: 1.3rem;
+			}
+
+			button{
+				font-size: 1rem;
+			}
+
+			.offcanvas-collapse {
+			    position: fixed;
+			    top:2.8125rem; //alto del navbar
+			    bottom: 0;
+			    left: 100%;
+			    width: 100%;
+			    padding-right: 1rem;
+			    padding-left: 1rem;
+			    overflow-y: auto;
+			    visibility: hidden;
+			    background-color: $negro;
+			    transition: transform .3s ease-in-out, visibility .3s ease-in-out;
+			    &.open{
+			    	visibility: visible;
+			    	transform: translateX(-100%);	
+			    }
+			    .nav-item{
+					margin-top: 2rem;
+				}
+				li{
+					margin-right: 0 !important;
+					border-bottom: .1rem solid #fff;
+				}
+			 }
+		}		
+	}
+}
+
+//-------PORTADA---------//
+#portada{
+	.carousel-inner{
+		h5{
+			font-family: $titulo;
+			word-spacing: .5rem;
+		}
+	}
+}
+
+@media only screen and (max-width: 576px){
+	#portada{
+		.carousel-inner{
+			h5{
+				font-size: 1rem !important;
+			}
+		}
+	}
+}
+
+//-------NOSOTROS---------//
+#nosotros{
+	.seccion-texto{
+		color: $verde;
+		padding: 1rem 0;
+		background: url('../img/mascara1.svg') no-repeat center center; 
+	}
+}
+
+//-------CARTA---------//
+#carta{
+	.row{
+		display: flex;
+		flex-wrap: nowrap;
+
+		#carouselCarta{
+			// height: 28.75rem;
+			.carousel-inner{
+				width: 100%;
+				height: 100%;
+			}
+		}
+		.contenido-carta{
+			.accordion{
+				margin-left: -9.375rem;
+				background-color: $coral;
+				padding-left: 1.25rem;
+				padding: 3.125rem 1.875rem 3.125rem 9.375rem;
+				button:hover[aria-expanded="true"] {
+				   background-color: $coral;
+				   outline: none !important;
+ 				   box-shadow: none !important;
+				}
+				button[aria-expanded="true"] {
+				   background-color: $coral;
+				   outline: none !important;
+ 				   box-shadow: none !important;
+				}
+				button:focus{
+					outline: none !important;
+ 				   	box-shadow: none !important;
+				}
+			}
+		}		
+	}	
+}
+
+@media only screen and (max-width: 992px){
+	#carta{
+		.row{
+			flex-wrap: wrap;
+
+			#carouselCarta{
+				margin-bottom: 2rem;
+			}
+			.contenido-carta{
+				.accordion{
+					margin-left: inherit;
+					padding-left: 0;
+					padding: 2.5rem 1.875rem 2.5rem 1.875rem;
+				}
+				button{
+					font-size: 1.125rem !important;
+				}
+			}
+		}
+	}
+}
+
+//-------LOCAL---------//
+#local{
+	.col{
+		position: relative;
+		&:before{
+			content: '';
+			display: inline-flex;
+	        background-image: url('../img/horario.svg');
+	   		background-size: 12.5rem 12.5rem;
+	        height: 12.5rem;
+	        width: 12.5rem;
+	        position: absolute;
+	        right: 10%;
+	        top: 10%;
+	        cursor: pointer;
+	     	animation: horario 5s ease infinite;
+		}
+
+		@keyframes horario {
+			0%{
+				transform: rotate(30deg);
+			}
+			50%{
+				transform: rotate(-30deg);
+			}
+			100%{
+				transform: rotate(30deg);
+			}
+		}
+	}	
+}
+
+@media only screen and (max-width: 992px){
+	#local{
+		.col{
+			&:before{
+				content: '';
+		        background-image: url('');
+			}
+		}
+	}
+}
+
+//-------EQUIPO---------//
+#equipo{
+	.row{
+		.seccion-texto{
+			color: $verde;
+		}
+	}
+	.imagen{
+		background: $azul;
+		
+			img{
+				position: relative;
+    			bottom: -0.8125rem;
+    		}			
+	}
+}
+
+//-------CONTACTO---------//
+#contacto{
+	.datos-contacto{
+		background-color: $coral;
+		color: #fff;
+		padding: 5rem 5rem 10rem 1.5rem;
+		i{
+			width: 1.25rem;
+			text-align: center;
+			margin-right: 1rem;
+		}
+		p{
+			margin-left: 2.5rem;
+		}
+		a{
+			color: #fff;
+			font-size: 2rem;
+		}
+	}
+	
+	iframe{
+		margin-top: 11rem;
+	}
+}
+
+@media only screen and (max-width: 992px){
+	#contacto{
+		.datos-contacto{
+			padding: 3rem 1.5rem 3rem 1.5rem;
+			p{
+				margin-left: .5rem;
+			}
+		}
+		iframe{
+			margin-top: 1rem;
+		}
+	}
+}
+
+//-------FOOTER---------//
+footer{
+	margin-top: 1rem;
+	background: $azul;
+	color: #fff;
+}
+
+@media only screen and (max-width: 992px){
+	footer{
+		p{
+			font-size: .875rem;
+		}
+	}
 }

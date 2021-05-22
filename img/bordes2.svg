@@ -1,0 +1,137 @@
+<svg width="381" height="25" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid meet" version="1.1">
+ <defs>
+  <path id="adTSzQCuC" d="m21.84,9.88l7.28,8.29l-14.56,0l-14.56,0l7.28,-8.29l7.28,-8.3l7.28,8.3z"/>
+  <path id="a75gGusEW" d="m21.84,16.62l7.28,8.3l-14.56,0l-14.56,0l7.28,-8.3l7.28,-8.29l7.28,8.29z"/>
+  <path id="chm3AKAM2" d="m44.92,9.88l7.28,8.29l-14.56,0l-14.56,0l7.27,-8.29l7.29,-8.3l7.28,8.3z"/>
+  <path id="b42SfOOlx" d="m44.92,16.62l7.28,8.3l-14.56,0l-14.56,0l7.27,-8.3l7.29,-8.29l7.28,8.29z"/>
+  <path id="b2c0lGehvu" d="m68.57,9.88l7.28,8.29l-14.57,0l-14.56,0l7.28,-8.29l7.28,-8.3l7.29,8.3z"/>
+  <path id="arbmLFb6C" d="m68.57,16.62l7.28,8.3l-14.57,0l-14.56,0l7.28,-8.3l7.28,-8.29l7.29,8.29z"/>
+  <path id="aPXyrOzT" d="m91.64,9.09l7.28,8.29l-14.56,0l-14.56,0l7.28,-8.29l7.28,-8.3l7.28,8.3z"/>
+  <path id="b5F2eDzZXG" d="m91.64,15.83l7.28,8.3l-14.56,0l-14.56,0l7.28,-8.3l7.28,-8.29l7.28,8.29z"/>
+  <path id="ahdlycqw" d="m115.88,9.09l7.28,8.29l-14.57,0l-14.56,0l7.28,-8.29l7.28,-8.3l7.29,8.3z"/>
+  <path id="b1UmwrvEuv" d="m115.88,15.83l7.28,8.3l-14.57,0l-14.56,0l7.28,-8.3l7.28,-8.29l7.29,8.29z"/>
+  <path id="b2U3Jfr67M" d="m138.95,9.09l7.28,8.29l-14.56,0l-14.56,0l7.28,-8.29l7.28,-8.3l7.28,8.3z"/>
+  <path id="a1vWS2uHwZ" d="m138.95,15.83l7.28,8.3l-14.56,0l-14.56,0l7.28,-8.3l7.28,-8.29l7.28,8.29z"/>
+  <path id="b1DgLmZta2" d="m162.6,9.88l7.28,8.29l-14.56,0l-14.56,0l7.28,-8.29l7.28,-8.3l7.28,8.3z"/>
+  <path id="e15Or7rbDo" d="m162.6,16.62l7.28,8.3l-14.56,0l-14.56,0l7.28,-8.3l7.28,-8.29l7.28,8.29z"/>
+  <path id="e5wwgwaQK" d="m185.24,9.09l7.28,8.29l-14.56,0l-14.56,0l7.27,-8.29l7.29,-8.3l7.28,8.3z"/>
+  <path id="a19BEK33KO" d="m185.24,15.83l7.28,8.3l-14.56,0l-14.56,0l7.27,-8.3l7.29,-8.29l7.28,8.29z"/>
+  <path id="jqQck3mzA" d="m208.31,9.09l7.28,8.29l-14.56,0l-14.56,0l7.28,-8.29l7.28,-8.3l7.28,8.3z"/>
+  <path id="bw7qMG4Z" d="m208.31,15.83l7.28,8.3l-14.56,0l-14.56,0l7.28,-8.3l7.28,-8.29l7.28,8.29z"/>
+  <path id="a7NwiN3qFw" d="m231.96,9.09l7.28,8.29l-14.56,0l-14.56,0l7.28,-8.29l7.28,-8.3l7.28,8.3z"/>
+  <path id="csQJAyQhd" d="m231.96,15.83l7.28,8.3l-14.56,0l-14.56,0l7.28,-8.3l7.28,-8.29l7.28,8.29z"/>
+  <path id="b2ilUnPzea" d="m255.04,8.29l7.28,8.3l-14.56,0l-14.56,0l7.28,-8.3l7.28,-8.29l7.28,8.29z"/>
+  <path id="aSDBxyISQ" d="m255.04,15.04l7.28,8.3l-14.56,0l-14.56,0l7.28,-8.3l7.28,-8.29l7.28,8.29z"/>
+  <path id="gez7ZZJ7z" d="m279.27,8.29l7.28,8.3l-14.56,0l-14.56,0l7.28,-8.3l7.28,-8.29l7.28,8.29z"/>
+  <path id="b9IGyQK2j" d="m279.27,15.04l7.28,8.3l-14.56,0l-14.56,0l7.28,-8.3l7.28,-8.29l7.28,8.29z"/>
+  <path id="d3mLyDELzN" d="m302.35,8.29l7.28,8.3l-14.56,0l-14.56,0l7.28,-8.3l7.28,-8.29l7.28,8.29z"/>
+  <path id="b1gsETu4LT" d="m302.35,15.04l7.28,8.3l-14.56,0l-14.56,0l7.28,-8.3l7.28,-8.29l7.28,8.29z"/>
+  <path id="domW5BqWo" d="m326,8.29l7.28,8.3l-14.56,0l-14.56,0l7.28,-8.3l7.28,-8.29l7.28,8.29z"/>
+  <path id="adAmrEDZr" d="m326,15.04l7.28,8.3l-14.56,0l-14.56,0l7.28,-8.3l7.28,-8.29l7.28,8.29z"/>
+  <path id="acZ5P1ogU" d="m349.9,8.42l7.28,8.29l-14.56,0l-14.56,0l7.28,-8.29l7.28,-8.3l7.28,8.3z"/>
+  <path id="apzE9dBkV" d="m349.9,15.16l7.28,8.3l-14.56,0l-14.56,0l7.28,-8.3l7.28,-8.29l7.28,8.29z"/>
+  <path id="n6t107NvU" d="m373.55,8.42l7.28,8.29l-14.56,0l-14.56,0l7.28,-8.29l7.28,-8.3l7.28,8.3z"/>
+  <path id="atcL9MK67" d="m373.55,15.16l7.28,8.3l-14.56,0l-14.56,0l7.28,-8.3l7.28,-8.29l7.28,8.29z"/>
+ </defs>
+ <g>
+  <title>Layer 1</title>
+  <g id="svg_102">
+   <g id="svg_3">
+    <use x="0.45" y="3.13" id="svg_4" fill="#141252" xlink:href="#adTSzQCuC"/>
+   </g>
+   <g id="svg_5">
+    <use x="0.45" y="3.13" id="svg_6" fill="#ffffff" xlink:href="#a75gGusEW"/>
+   </g>
+   <g id="svg_7">
+    <use x="0.45" y="3.13" id="svg_8" fill="#141252" xlink:href="#chm3AKAM2"/>
+   </g>
+   <g id="svg_9">
+    <use x="0.45" y="3.13" id="svg_10" fill="#ffffff" xlink:href="#b42SfOOlx"/>
+   </g>
+   <g id="svg_11">
+    <use x="0.45" y="3.13" id="svg_12" fill="#141252" xlink:href="#b2c0lGehvu"/>
+   </g>
+   <g id="svg_13">
+    <use x="0.45" y="3.13" id="svg_14" fill="#ffffff" xlink:href="#arbmLFb6C"/>
+   </g>
+   <g id="svg_15">
+    <use x="0.45" y="3.13" id="svg_16" fill="#141252" xlink:href="#aPXyrOzT"/>
+   </g>
+   <g id="svg_17">
+    <use x="0.45" y="3.13" id="svg_18" fill="#ffffff" xlink:href="#b5F2eDzZXG"/>
+   </g>
+   <g id="svg_19">
+    <use x="0.45" y="3.13" id="svg_20" fill="#141252" xlink:href="#ahdlycqw"/>
+   </g>
+   <g id="svg_21">
+    <use x="0.45" y="3.13" id="svg_22" fill="#ffffff" xlink:href="#b1UmwrvEuv"/>
+   </g>
+   <g id="svg_23">
+    <use x="0.45" y="3.13" id="svg_24" fill="#141252" xlink:href="#b2U3Jfr67M"/>
+   </g>
+   <g id="svg_25">
+    <use x="0.45" y="3.13" id="svg_26" fill="#ffffff" xlink:href="#a1vWS2uHwZ"/>
+   </g>
+   <g id="svg_27">
+    <use x="0.45" y="3.13" id="svg_28" fill="#141252" xlink:href="#b1DgLmZta2"/>
+   </g>
+   <g id="svg_29">
+    <use x="0.45" y="3.13" id="svg_30" fill="#ffffff" xlink:href="#e15Or7rbDo"/>
+   </g>
+   <g id="svg_31">
+    <use x="0.45" y="3.13" id="svg_32" fill="#141252" xlink:href="#e5wwgwaQK"/>
+   </g>
+   <g id="svg_33">
+    <use x="0.45" y="3.13" id="svg_34" fill="#ffffff" xlink:href="#a19BEK33KO"/>
+   </g>
+   <g id="svg_35">
+    <use x="0.45" y="3.13" id="svg_36" fill="#141252" xlink:href="#jqQck3mzA"/>
+   </g>
+   <g id="svg_37">
+    <use x="0.45" y="3.13" id="svg_38" fill="#ffffff" xlink:href="#bw7qMG4Z"/>
+   </g>
+   <g id="svg_39">
+    <use x="0.45" y="3.13" id="svg_40" fill="#141252" xlink:href="#a7NwiN3qFw"/>
+   </g>
+   <g id="svg_41">
+    <use x="0.45" y="3.13" id="svg_42" fill="#ffffff" xlink:href="#csQJAyQhd"/>
+   </g>
+   <g id="svg_43">
+    <use x="0.45" y="3.13" id="svg_44" fill="#141252" xlink:href="#b2ilUnPzea"/>
+   </g>
+   <g id="svg_45">
+    <use x="0.45" y="3.13" id="svg_46" fill="#ffffff" xlink:href="#aSDBxyISQ"/>
+   </g>
+   <g id="svg_47">
+    <use x="0.45" y="3.13" id="svg_48" fill="#141252" xlink:href="#gez7ZZJ7z"/>
+   </g>
+   <g id="svg_49">
+    <use x="0.45" y="3.13" id="svg_50" fill="#ffffff" xlink:href="#b9IGyQK2j"/>
+   </g>
+   <g id="svg_51">
+    <use x="0.45" y="3.13" id="svg_52" fill="#141252" xlink:href="#d3mLyDELzN"/>
+   </g>
+   <g id="svg_53">
+    <use x="0.45" y="3.13" id="svg_54" fill="#ffffff" xlink:href="#b1gsETu4LT"/>
+   </g>
+   <g id="svg_55">
+    <use x="0.45" y="3.13" id="svg_56" fill="#141252" xlink:href="#domW5BqWo"/>
+   </g>
+   <g id="svg_57">
+    <use x="0.45" y="3.13" id="svg_58" fill="#ffffff" xlink:href="#adAmrEDZr"/>
+   </g>
+   <g id="svg_59">
+    <use x="0.45" y="3.13" id="svg_60" fill="#141252" xlink:href="#acZ5P1ogU"/>
+   </g>
+   <g id="svg_61">
+    <use x="0.45" y="3.13" id="svg_62" fill="#ffffff" xlink:href="#apzE9dBkV"/>
+   </g>
+   <g id="svg_63">
+    <use x="0.45" y="3.13" id="svg_64" fill="#141252" xlink:href="#n6t107NvU"/>
+   </g>
+   <g id="svg_65">
+    <use x="0.45" y="3.13" id="svg_66" fill="#ffffff" xlink:href="#atcL9MK67"/>
+   </g>
+  </g>
+ </g>
+</svg>
